@@ -33,14 +33,14 @@ def titanic(df_loc, html_name):
         ht_wr.write(html)
 
 
-airbase(df_loc='~/Documents/Data-Science/Tamrin & files/session 3/FlaskDockerExample/app/Data/airbase_data.csv',
+airbase(df_loc='location of csv file/airbase_data.csv',
         html_name='airbase.html')
 
-flow(df_loc='~/Documents/Data-Science/Tamrin & files/session 3/FlaskDockerExample/app/Data/flowdata.csv',
+flow(df_loc='location of csv file/flowdata.csv',
      html_name='flow.html')
 
-melb(df_loc='~/Documents/Data-Science/Tamrin & files/session 3/FlaskDockerExample/app/Data/melb_data.csv',
+melb(df_loc='location of csv file/melb_data.csv',
      html_name='melb.html')
 
-titanic(df_loc='~/Documents/Data-Science/Tamrin & files/session 3/FlaskDockerExample/app/Data/titanic.csv',
+titanic(df_loc='location of csv file/titanic.csv',
         html_name='titanic.html')
