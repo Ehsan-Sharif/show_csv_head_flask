@@ -9,7 +9,6 @@ def airbase(df_loc, html_name):
         ht_wr.write(html)
 
 
-
 def flow(df_loc, html_name):
     flow_df = pd.read_csv(df_loc)
     head_df = flow_df.head(n=10)
